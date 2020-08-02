@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+
+        .speaker {
+            background: url(speaker.svg) no-repeat;
+            height: 20px;
+            width: 20px;
+            filter: invert(1);
+            display: inline-block;
+            vertical-align: middle;
+            margin-top: -5px;
+            margin-right: 10px;
+        }
+
+        .act {
+            background: black;
+            color: white;
+            padding: 10px;
+            border-radius: 20px;
+            vertical-align: middle;
+            text-align: center;
+            min-width: 250px;
+            margin-top: 10px;
+            border: 2px solid white;
+        }
+        #status {
+            width: 20%;
+            position: fixed;
+        }
+        #radar {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="status"></div>
+    <canvas id="radar" width="1920" height="1080"></canvas>
+    <script src="./dist/bundle.js"></script>
+</body>
+
+</html>
