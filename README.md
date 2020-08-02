@@ -23,10 +23,12 @@ Notes:
 * Camera incline is currently not supported, your camera MUST be centered on the horizon
 
 ## Building
+`node.js` is requred to build.
+
 ```
 git clone https://github.com/v0l/adsb-overlay
 cd adsb-overlay
-yarn install
+npx yarn install
 npx webpack
 ```
 
