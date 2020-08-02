@@ -1,7 +1,7 @@
 # adsb-overlay
 ADS-B Camera overlay for tracking and displaying aircraft information
 
-![demo.webp](https://v0l.io/adsb_overlay.webp)
+![demo.webp](https://v0l.io/adsb_overlay_2.webp)
 # Setup
 
 ## Configuring
